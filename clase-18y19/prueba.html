@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+</head>
+<body>
+    
+    <h2>Probando javascript</h2>
+
+    <script>
+        function factorial(natural){
+            if(natural==1){
+                return 1;
+            }else{
+                return factorial(natural-1)*natural;
+            }
+        }
+
+        console.log("\n\t Factorial: ");
+        console.log("\n\t 21! = %d",factorial(21));
+
+    </script>
+
+</body>
+</html>
